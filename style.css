@@ -1,0 +1,72 @@
+/*  Timbo Deli Distributors */
+
+/* 1.BODY and PAGE
+---------------------------------------------------------------------- */
+
+body { width:1024px; margin:25px auto; padding:5px; font-family:Helvetica, Arial, serif; font-size:16px; line-height:22px; color:#000; border:solid 0px red; }
+
+/* 2.DEFAULT STYLING
+---------------------------------------------------------------------- */
+
+p { margin:5px 0px 17px 0px; }
+
+section { margin:5px; border:solid 0px green; }
+section.main { text-align:center; }
+
+.main img { margin:15px 25px; border:solid 0px black; }  
+
+/* 3.HEADINGS
+---------------------------------------------------------------------- */
+
+header { height:65px; margin:5px 5px 40px 5px; border:solid 0px blue; }
+header .logo { background:url(images/bg.jpg) no-repeat; width:65px; height:65px; text-indent:-9999px; float:left; }
+header a { position:relative; left:580px; top:20px; margin-right:50px; border:solid 0px red; }
+
+/* 4.LINKS
+---------------------------------------------------------------------- */
+
+a { outline:0; text-decoration:none; }
+a:link, a:visited { color:#881105; }
+a:hover, a:focus { color:#999; }
+
+/* 5.LAYOUT
+---------------------------------------------------------------------- */
+
+/* 6.NAVIGATION
+---------------------------------------------------------------------- */
+
+/* 7.SITEINFO/FOOTER
+---------------------------------------------------------------------- */
+
+section, footer { margin:5px; padding:5px;border:solid 0px orange; }
+
+/* 8.FORMS
+---------------------------------------------------------------------- */
+
+/* 9.MEDIA QUERIES
+---------------------------------------------------------------------- */
+
+@media (min-width:768px) and (max-width:1023px) { 
+  body { width:750px; } 
+  /* 2-column */
+
+  .main img { margin:20px 50px; }  
+
+  header a { margin-right:35px; left:330px; }  
+ } 
+
+@media (min-width:480px) and (max-width:767px) { 
+  body { width:470px; } 
+  /* 2-column */
+
+  .main img { margin-left:10px;margin-right:10px; }  
+
+  header a { margin-right:20px;left:95px; }    
+ } 
+
+@media (min-width:320px) and (max-width:479px) { 
+  body { width:300px; } 
+
+  header a { display:block; top:0px; left:135px; }
+  /* 1-column */
+ }  
