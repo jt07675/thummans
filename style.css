@@ -1,6 +1,6 @@
 /*  Timbo Deli Distributors */
 
-/* 1.BODY and PAGE
+/* BODY and PAGE
 ---------------------------------------------------------------------- */
 
 @font-face {
@@ -24,72 +24,56 @@ body {
   color:#000; 
 }
 
-/* 2.DEFAULT STYLING
+/* DEFAULT STYLING
 ---------------------------------------------------------------------- */
 h1 {
   font-family: 'OpenSansReg';
   font-size: 48px;
-  margin:5px 0px 30px 0px; 
+  margin:0px 0px 50px 0px;
 }
 
 h2 {
+  font-family: 'OpenSansReg';  
   font-size:36px;
-  margin:5px 0px 25px 0px; 
+  margin:0px 0px 50px 0px;
 }
 
 h3 {
+  font-family: 'OpenSansReg';
   font-size:28px;
-  margin:5px 0px 17px 0px; 
+  margin:0px 0px 17px 0px; 
 }
 
 p { 
-  margin:5px 0px 17px 0px; 
-  border:solid 0px red; 
+  margin:5px 0px 17px 0px;
 }
 
-
-/* 3.HEADINGS
----------------------------------------------------------------------- */
-
-header { 
-  text-align: center;
-  margin:5px auto 10px auto; 
-  border:solid 0px blue;   
-}
-
-header a { 
-  top:20px; 
-  margin-right:70px;   
-}
-
-/* 4.LINKS
----------------------------------------------------------------------- */
-
-a { outline:0; text-decoration:none; }
-a:link, a:visited { color:#881105; }
-a:hover, a:focus { color:#999; }
-
-/* 5.LAYOUT
----------------------------------------------------------------------- */
-
-/* 6.NAVIGATION
----------------------------------------------------------------------- */
-
-/* 7.SITEINFO/FOOTER
+/* LAYOUT
 ---------------------------------------------------------------------- */
 section {
-  display: block;
-  border:solid 0px red; 
-  width:1200px;
+  float: left;
+  width: 320px;
+  margin: 20px 10px;
+}
+
+section h2, footer h2 {
+    margin:10px;
+    line-height: 40px;
+    text-align: center;
+}
+
+footer {
+  clear: both;
+  border:solid 1px black;
+}
+
+#content {
+  width:1000px;
   margin: 0px auto;
 }
 
-.intro {
-  margin:100px auto;
-  text-align: center;
-}
-
-.bg-home {
+.bgIntro {
+  top:0px;
   display: block;
   position: absolute;
   background-image: url("images/ThummansFullLineLite.jpg");
@@ -100,13 +84,64 @@ section {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   z-index: -1; 
+  border:solid 0px blue;
 }
 
-/* 8.FORMS
----------------------------------------------------------------------- */
+.intro {
+  margin:100px auto;
+  text-align: center;
+}
 
-/* 9.MEDIA QUERIES
----------------------------------------------------------------------- */
+.contactUs {
+  -moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+  box-shadow:inset 0px 1px 0px 0px #f5978e;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+  background:-moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f');
+  background-color:#f24537;
+  -webkit-border-top-left-radius:17px;
+  -moz-border-radius-topleft:17px;
+  border-top-left-radius:17px;
+  -webkit-border-top-right-radius:17px;
+  -moz-border-radius-topright:17px;
+  border-top-right-radius:17px;
+  -webkit-border-bottom-right-radius:17px;
+  -moz-border-radius-bottomright:17px;
+  border-bottom-right-radius:17px;
+  -webkit-border-bottom-left-radius:17px;
+  -moz-border-radius-bottomleft:17px;
+  border-bottom-left-radius:17px;
+  text-indent:0;
+  border:1px solid #d02718;
+  display:inline-block;
+  color:#ffffff;
+  font-family:'OpenSansReg';
+  font-size:18px;
+  font-weight:bold;
+  font-style:normal;
+  height:50px;
+  line-height:50px;
+  width:125px;
+  text-decoration:none;
+  text-align:center;
+  text-shadow:1px 1px 0px #810e05;
+}
+
+.contactUs:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537) );
+  background:-moz-linear-gradient( center top, #c62d1f 5%, #f24537 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537');
+  background-color:#c62d1f;
+}
+
+.contactUs:active {
+  position:relative;
+  top:1px;
+}
+
+/* MEDIA QUERIES
+---------------------------------------------------------------------- 
  @media (min-width:640px) and (max-width:1024px) { 
   header a {  
     text-align: center;
@@ -131,4 +166,4 @@ section {
     display:block; 
     margin-right: 25px;
   }
-}
+}*/
