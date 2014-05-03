@@ -58,6 +58,24 @@ a {
   text-decoration: none;
 }
 
+b {
+  font-family: 'OpenSansBold';
+  color: #b5121b;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+hr {
+  border-top: 1px dashed #b5121b;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  width:754px;  
+}
+
 /* LAYOUT
 ---------------------------------------------------------------------- */
 header {
@@ -73,7 +91,7 @@ header h1 {
   width:478px;
   color:#FFF;
   padding: 16px 23px;
-  border: 3px solid #FFF;
+  border: 3px solid #FFF;     
   margin: 71px auto 36px auto;
 }
 
@@ -95,28 +113,50 @@ header h3 {
 }
 
 section {
-  width:920px;
+  width:960px;
   margin: 0px auto;
   border: solid 0px blue;
 }
 
-.sectionLeft {
-  float: left;
-  border:solid 1px red;
-  width:438px;
-  margin-right:20px;
+footer {
+  margin-top:35px;
+  border-top:solid 5px #b5121b;
+  top:0px;
+  height: 300px;
+  background-color: #f1f1f1;
+  overflow: hidden;  
 }
 
-.sectionRight {
-  float: left;
-  border:solid 1px red;
-  width:438px;
-  margin-left:20px;
+footer p {
+  font-family: 'OpenSansReg';
+  font-size: 20px;
+  color: #b5121b;
+  line-height: 24px;
 }
 
-#about {
-  margin-top: 113px;
-  height:345px;
+footer a {
+  font-family: 'OpenSansReg';
+  font-size: 20px;
+  color: #b5121b;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+footer h2 {
+  text-align: center;
+  margin-top:43px;
+  margin-bottom: 12px;
+}
+
+footer h3 {
+  font-family: 'OpenSansLite';
+  font-size: 20px;
+  text-transform: none;
+  text-align: center;
+  color: #848484;
+  margin-bottom:35px;
 }
 
 #thummans {
@@ -132,12 +172,28 @@ section {
   display:none;
 }
 
-#thumannsDifference {
+#about {
+  margin-top: 25px;
+  height:260px;
+  padding:50px 0px;
+  border:solid 0px red;
+}
 
+#thumannsDifference {
+  margin-top:20px;
+  height:265px;
+  padding:50px 0px;
+  border:solid 0px red;
+}
+
+#testimonial {
+  height:180px;
+  padding:50px 0px;
+  border:solid 0px red;
 }
 
 .content{
-  width: 920px;
+  width: 960px;
   margin: 0px auto;
 }
 
@@ -164,6 +220,70 @@ section {
   -moz-border-radius: 4px;
   border-radius: 4px;
   margin-right:11px;
+}
+
+.sectionText {
+  float: left;
+  border:solid 0px red;
+  width:440px;
+  margin: 20px 20px;
+}
+
+.sectionImage {
+  float: left;
+  border:solid 0px red;
+  width:440px;
+  margin: 0px 20px;
+}
+
+.sectionTestimonial {
+  float: left;
+  border:solid 0px red;
+  width:630px;
+  margin: 10px 20px;
+}
+
+.sectionClient {
+  float: left;
+  border:solid 0px red;
+  width:250px;
+  margin:75px 20px 0px 20px;
+  text-align: right;
+}
+
+.sectionClient p {
+  font-style: italic;
+}
+
+.contactInfo {
+  float: left;
+  border: solid 0px red;
+  width: 340px;
+  margin: 0px 70px;
+}
+
+.contactInfo a {
+  line-height: 40px;
+}
+
+.address {
+  float: left;
+  border: solid 0px red;
+  width: 340px;
+  margin: 0px 70px;
+}
+
+.italics {
+  font-family: 'OpenSansLite';
+  font-style: italic;
+}
+
+.fa {
+  margin-right:8px;
+}
+
+.indent {
+  margin-right: 19px;
 }
 
 /* MEDIA QUERIES
