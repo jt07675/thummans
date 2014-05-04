@@ -159,19 +159,6 @@ footer h3 {
   margin-bottom:35px;
 }
 
-#thummans {
-  width: 205px;
-  height: 94px;
-  background-image: url('images/logo.png');
-  display: inline-block;
-  margin:0px 25px;
-  vertical-align: middle;
-}
-
-#thummans span {
-  display:none;
-}
-
 #about {
   margin-top: 25px;
   height:260px;
@@ -190,6 +177,19 @@ footer h3 {
   height:180px;
   padding:50px 0px;
   border:solid 0px red;
+}
+
+.thummans {
+  width: 205px;
+  height: 94px;
+  background-image: url('images/logo.png');
+  display: inline-block;
+  margin:0px 25px;
+  vertical-align: middle;
+}
+
+.thummans span {
+  display:none;
 }
 
 .content{
@@ -287,29 +287,279 @@ footer h3 {
 }
 
 /* MEDIA QUERIES
----------------------------------------------------------------------- 
- @media (min-width:640px) and (max-width:1024px) { 
-  header a {  
+---------------------------------------------------------------------- */
+@media (min-width:768px) and (max-width:959px) {
+  .content {
+    width:768px;
+  }
+
+  hr {
+    width:650px;  
+  }
+
+  #about {
+    width: 768px;
+    margin: 0px auto;
+    padding: 25px 0px;
+    height: 480px;
+  }
+
+  #thumannsDifference {
+    width:768px;
+    margin: 0px auto;
+    padding: 25px 0px;
+    height: 520px;
+  }
+
+  #testimonial {
+    width:768px;
+    margin: 0px auto;
+    padding: 50px 0px;
+    height: 240px;
+  }
+  
+  .sectionText {
+    width: 700px;
+    margin: 20px 33px;
+  }
+
+  .sectionImage {
     text-align: center;
-    margin-right: 50px;
+    width: 700px;
+    margin: 20px 33px;
+  }
+
+  .sectionTestimonial {
+    float:left;
+    width:400px;
+    margin:10px 33px;
+  }
+
+  .sectionClient {
+    float:left;
+    width:250px;
+    margin:75px 10px 0px 10px;
+  }
+
+  .contactInfo {
+    float: left;
+    width: 340px;
+    margin: 0px 33px;
+  }
+
+  .contactInfo a {
+    line-height: 40px;
+  }
+
+  .address {
+    float: left;
+    width: 300px;
+    margin: 0px 0px;
   }
 }
- @media (min-width:480px) and (max-width:639px) { 
-  header a {  
-    display:block; 
+
+
+@media (min-width:640px) and (max-width:767px) {
+  .content {
+    width:640px;
+  }
+
+  hr {
+    width:500px;  
+  }
+
+  header h2 {
+    width:589px;
+    font-size: 28px;
+    font-family: 'OpenSansLite';
+    color:#FFF;
+    margin: 0px auto;
+  } 
+
+  #about {
+    width: 640px;
+    margin: 0px auto;
+    padding: 25px 0px;
+    border: solid 0px red;
+    height: 490px;
+  }
+
+  #thumannsDifference {
+    width:640px;
+    margin: 0px auto;
+    padding: 25px 0px;
+    height: 530px;
+  }
+
+  #testimonial {
+    width:640px;
+    margin: 0px auto;
+    padding: 40px 0px;
+    height: 280px;
+  }
+  
+  #contact {
+    clear: both;
+    height: 350px
+  }
+
+  .sectionText {
+    width: 574px;
+    margin: 20px 33px;
+  }
+
+  .sectionImage {
     text-align: center;
-    margin-right: 35px;
+    width: 574px;
+    margin: 20px 33px;
   }
+
+  .sectionTestimonial {
+    width:574px;
+    margin:10px 33px;
+  }
+
+  .sectionClient {
+    width:574px;
+    margin:20px 33px;
+    text-align:left;
+  }
+
+  .contactInfo {
+    text-align: center;
+    border: solid 0px red;
+    width: 640px;
+    margin: 0px auto;
+    line-height: 60px;
+  }
+
+  .address {
+    text-align: center;
+    border: solid 0px red;
+    width: 640px;
+    margin: 0px auto;
+  }  
+
+  .thummans {
+    margin:0px 5px;
+  }  
 }
- @media (min-width:320px) and (max-width:479px) { 
-  header a { 
-    display:block; 
-    margin-right: 25px;
+
+@media (min-width:480px) and (max-width:639px) { 
+  .content {
+    width:480px;
   }
-}
- @media (min-width:0px) and (max-width:319px) { 
-  header a { 
-    display:block; 
-    margin-right: 25px;
+
+  hr {
+    width:350px;  
   }
-}*/
+
+  header {
+    top:0px;
+    height: 340px;
+    background-color: #b5121b;
+    background-image: url('images/ThummansFullLine.jpg');
+    background-position: center;
+    overflow: hidden;
+  }
+
+  header h1 {
+    width:400px;
+    color:#FFF;
+    padding: 16px 23px;
+    border: 3px solid #FFF;     
+    margin: 71px auto 36px auto;
+    font-size: 30px;
+  }
+
+  header h2 {
+    width:400px;
+    font-size: 20px;
+    font-family: 'OpenSansLite';
+    color:#FFF;
+    margin: 0px auto;
+  }
+
+  header h3 {
+    border:solid 0px blue;
+    width:398px;
+    font-family: 'OpenSansLite';
+    color:#FFF;
+    text-transform: uppercase;
+    margin: 32px auto 0px auto;
+    font-size:18px;
+  }
+
+  #about {
+    width: 480px;
+    margin: 0px auto;
+    padding: 25px 0px;
+    border: solid 0px red;
+    height: 540px;
+  }
+
+  #thumannsDifference {
+    width:480px;
+    margin: 0px auto;
+    padding: 25px 0px;
+    height: 580px;
+  }
+
+  #testimonial {
+    width:480px;
+    margin: 0px auto;
+    padding: 40px 0px;
+    height: 350px;
+  }
+  
+  #contact {
+    clear: both;
+    height: 350px
+  }
+
+  .sectionText {
+    width: 414px;
+    margin: 20px 33px;
+  }
+
+  .sectionImage {
+    text-align: center;
+    width: 414px;
+    margin: 20px 33px;
+  }
+
+  .sectionTestimonial {
+    width:414px;
+    margin:10px 33px;
+  }
+
+  .sectionClient {
+    width:414px;
+    margin:20px 33px;
+    text-align:left;
+  }
+
+  .contactInfo {
+    text-align: center;
+    border: solid 0px red;
+    width: 480px;
+    margin: 0px auto;
+    line-height: 60px;
+  }
+
+  .address {
+    text-align: center;
+    border: solid 0px red;
+    width: 480px;
+    margin: 0px auto;
+  }  
+
+  .thummans {
+    width:100px;
+    height:46px;
+    background-image: url('images/logoSmall.png');
+    display: inline-block;
+    margin:0px 5px;
+    vertical-align: middle;
+  }  
+} /* iPhone Retina  */
