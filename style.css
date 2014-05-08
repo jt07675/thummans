@@ -714,5 +714,6 @@ footer h3 {
     display: inline-block;
     margin:0px 0px 0px 5px;
     vertical-align: middle;
+    text-indent: -9999px
   }  
 }
