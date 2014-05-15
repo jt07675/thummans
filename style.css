@@ -56,6 +56,7 @@ p {
 
 a {
   text-decoration: none;
+  color: #b5121b;
 }
 
 b {
@@ -161,7 +162,7 @@ footer h3 {
 
 #about {
   margin-top: 25px;
-  height:260px;
+  height:275px;
   padding:50px 0px;
   border:solid 0px red;
 }
@@ -301,7 +302,7 @@ footer h3 {
     width: 768px;
     margin: 0px auto;
     padding: 25px 0px;
-    height: 480px;
+    height: 510px;
   }
 
   #thumannsDifference {
@@ -385,7 +386,7 @@ footer h3 {
     margin: 0px auto;
     padding: 25px 0px;
     border: solid 0px red;
-    height: 490px;
+    height: 530px;
   }
 
   #thumannsDifference {
@@ -499,7 +500,7 @@ footer h3 {
     margin: 0px auto;
     padding: 25px 0px;
     border: solid 0px red;
-    height: 540px;
+    height: 595px;
   }
 
   #thumannsDifference {
@@ -629,7 +630,7 @@ footer h3 {
     margin: 0px auto;
     padding: 25px 0px;
     border: solid 0px red;
-    height: 520px;
+    height: 600px;
   }
 
   #thumannsDifference {
